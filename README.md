@@ -1,6 +1,6 @@
 # 1. Problema de negócio
 
-A sua principal tarefa nesse momento é ajudar o CEO Kleiton Guerra
+A principal tarefa nesse momento é ajudar o CEO Kleiton Guerra
 a identificar pontos chaves da empresa, respondendo às perguntas que ele fizer
 utilizando dados!
 A empresa Fome Zero é uma marketplace de restaurantes. Ou seja, seu core
@@ -126,7 +126,7 @@ online e fazem entregas?
 
 Painel online, hospedado em um Cloud e disponível para acesso em
 qualquer dispositivo conectado à internet.
-O painel pode ser acessado através desse link: (https://matheus02p5-ftc-cury-company-home-n7gopr.streamlit.app)
+O painel pode ser acessado através desse link: (https://projetofomezero.streamlit.app)
 
 ## 5. Conclusão
 
