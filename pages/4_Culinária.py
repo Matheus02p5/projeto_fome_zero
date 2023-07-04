@@ -208,7 +208,7 @@ st.sidebar.markdown("## Países:")
 filtroculinaria = st.sidebar.multiselect(
     "Escolha os Tipos de Culinária",
     df2.loc[:, "cuisines"].unique().tolist(),
-    default=["Home-made","BBQ", "Japanese","Brazilian","Arabian",'Mineira', 'Durban','Armenian', 'Cantonese', 'Asian Fusion']
+    default=["Japanese","Brazilian","Arabian",'Mineira', 'Durban','Armenian']
 )
 
 linhas_selecionadas_cuisines = df1['cuisines'].isin( filtroculinaria )
