@@ -214,11 +214,6 @@ filtroculinaria = st.sidebar.multiselect(
 linhas_selecionadas_cuisines = df1['cuisines'].isin( filtroculinaria )
 df2 = df2.loc[linhas_selecionadas_cuisines, :]
 
-st.sidebar.markdown("## Quantidade de restaurantes:")
-date_slider = st.sidebar.slider("Quantidade:",value=6929,min_value=1, max_value=6929)
-linhas_selecionadas_slider = df2['index'] <= date_slider
-df2 = df2.loc[linhas_selecionadas_slider, :]
-
 filtropais = st.sidebar.multiselect("Escolha os Países:",df2.loc[:, "country_code"].unique().tolist(),default=["Brazil","England","Canada", "Australia"])
 
 linhas_selecionadas_countries = df2['country_code'].isin( filtropais )
